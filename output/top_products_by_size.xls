@@ -1,0 +1,11 @@
+order_size,product_id,order_count
+Large,PROD001,4
+Large,PROD005,3
+Medium,PROD003,5
+Medium,PROD019,2
+Medium,PROD001,1
+Medium,PROD005,1
+Small,PROD019,4
+Small,PROD005,3
+Small,PROD001,1
+Small,PROD003,1

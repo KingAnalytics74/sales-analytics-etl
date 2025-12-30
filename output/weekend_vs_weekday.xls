@@ -1,0 +1,3 @@
+is_weekend,final_amount_paid,quantity,order_id,day_type
+False,24725.4,87,20,Weekday
+True,3595.9700000000003,12,5,Weekend
