@@ -49,12 +49,10 @@ All analytics tables are exported as CSV files.
 
 ---
 
-## Project Structure
-
 sales-analytics-etl/
 │
 ├── data/
-│   └── raw_sales.csv
+│   └── dataset.csv
 │
 ├── notebooks/
 │   └── sales_etl_notebook.ipynb
@@ -62,19 +60,23 @@ sales-analytics-etl/
 ├── scripts/
 │   ├── clean.py
 │   ├── transform.py
-│   └── analytics.py
+│   ├── analytics.py
+│   └── main.py
 │
 ├── outputs/
-│   ├── region_sales.csv
-│   ├── orders_by_weekday.csv
+│   ├── product_profitability.csv
+│   ├── region_summary.csv
+│   ├── weekend_vs_weekday.csv
+│   ├── orders_by_day.csv
+│   ├── orders_by_month.csv
+│   ├── orders_by_size.csv
 │   ├── top_products_by_size.csv
-│   ├── shipping_by_product.csv
-│   └── highest_shipping_cost.csv
+│   ├── region_sales.csv
+│   └── orders_by_weekday.csv
 │
 ├── README.md
 └── requirements.txt
 
----
 
 ## Key Insights Generated
 
